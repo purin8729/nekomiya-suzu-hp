@@ -563,13 +563,23 @@ figcaption {
   .profile-card p,
   .contact-section p,
   dt,
-  .tags li,
-  figcaption {
+  .tags li {
     font-size: 1.13rem;
   }
 
+  .gallery-grid figure {
+    grid-template-columns: minmax(420px, 0.5fr) minmax(320px, 0.5fr);
+  }
+
   .gallery-grid img {
-    height: 560px;
+    height: 680px;
+    padding: 28px;
+  }
+
+  figcaption {
+    padding: 36px;
+    font-size: clamp(3.6rem, 4.2vw, 6.2rem);
+    line-height: 1;
   }
 }
 
