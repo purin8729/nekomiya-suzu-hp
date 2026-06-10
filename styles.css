@@ -397,6 +397,13 @@ figcaption {
   margin: 0;
 }
 
+.site-footer .special-thanks {
+  margin-top: 8px;
+  color: #9d5f7a;
+  font-family: Nunito, sans-serif;
+  font-weight: 800;
+}
+
 @media (max-width: 900px) {
   .site-header {
     align-items: flex-start;
